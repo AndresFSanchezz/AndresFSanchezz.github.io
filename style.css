@@ -7,9 +7,9 @@
     background-color: #2c3e50 !important;
 }
 
-/* img{
-    max-width: 30px !important;
-} */
+img{
+    max-width: 300px !important;
+} 
 
 .progress{
     background-color: rgba(255,255,255,0.2);
@@ -18,3 +18,20 @@
 .progress-bar{
     background-color: white;
 }
+/* Cambio color texto col derecha */
+
+.text-primary{
+    color: #3498db !important;
+}
+
+/* Efecto para las cards */
+.card{
+    transition: transofrm 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@media print 
